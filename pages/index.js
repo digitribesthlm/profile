@@ -28,7 +28,7 @@ export default function Home() {
         <div className="mt-6 flex space-x-2 lg:space-x-4">
           
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/patrikalriksson/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline btn-sm lg:btn-md"
