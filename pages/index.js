@@ -1,10 +1,18 @@
 import Image from 'next/image';
-import Head from 'next/head'; // Importera Head från next/head
+import Head from 'next/head';
 import { getSEO } from '../lib/seo'; // Justera sökvägen om det behövs
 
 const seo = getSEO("Patrik Alriksson - Home", "Lär känna Patrik Alriksson, en expert inom marknadsföring och företagsekonomi.");
 
-export default function Home() {
+export async function getServerSideProps() {
+  return {
+    props: {
+      googleSiteVerification: process.env.GOOGLE_SITE_VERIFICATION
+    }
+  };
+}
+
+export default function Home({ googleSiteVerification }) {
   return (
     <>
       <Head>
@@ -14,14 +22,15 @@ export default function Home() {
         <meta name="description" content={seo.metaTags.name.description} />
         <meta name="keywords" content="Patrik Alriksson, marknadsföring, företagsekonomi, Stockholm, B2B, Makeable STHLM" />
         <meta name="author" content="Patrik Alriksson" />
+        <meta name="google-site-verification" content={googleSiteVerification} />
         <meta property="og:title" content={seo.title} />
         <meta property="og:description" content={seo.metaTags.name.description} />
-        <meta property="og:image" content="/patrik-21.png" /> {/* Använd rätt bildsökväg */}
+        <meta property="og:image" content="/patrik-21.png" />
         <meta property="og:url" content="https://www.alriksson.nu" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={seo.title} />
         <meta name="twitter:description" content={seo.metaTags.name.description} />
-        <meta name="twitter:image" content="/patrik-21.png" /> {/* Använd rätt bildsökväg */}
+        <meta name="twitter:image" content="/patrik-21.png" />
       </Head>
 
       <main className="min-h-screen flex flex-col lg:flex-row bg-white">
