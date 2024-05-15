@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import Head from 'next/head';
-import { getSEO } from '../lib/seo'; // Justera sökvägen om det behövs
+import { getSEO } from '../lib/seo'; // Adjust the path if necessary
 
 const seo = getSEO("Patrik Alriksson - Home", "Lär känna Patrik Alriksson, en expert inom marknadsföring och företagsekonomi.");
 
 export async function getServerSideProps() {
   return {
     props: {
-      googleSiteVerification: process.env.GOOGLE_SITE_VERIFICATION
+      googleSiteVerification: process.env.GOOGLE_SITE_VERIFICATION || ''
     }
   };
 }
