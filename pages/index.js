@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
-import { getSEO } from '../lib/seo'; // Adjust the path if necessary.
+import { getSEO } from '../lib/seo'; // Adjust the path if necessary..
 
 const seo = getSEO("Patrik Alriksson - Home", "Lär känna Patrik Alriksson, en expert inom marknadsföring och företagsekonomi.");
 
