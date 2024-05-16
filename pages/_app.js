@@ -3,7 +3,7 @@ import { AppProps } from 'next/app';
 import TagManager from 'react-gtm-module';
 import '@/styles/globals.css';
 
-export default function App({ Component, pageProps }: AppProps) {
+const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   // Google Tag Manager
   useEffect(() => {
     const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
@@ -19,4 +19,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
     </>
   );
-}
+};
+
+export default App;
