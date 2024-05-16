@@ -37,14 +37,14 @@ export default function Home({ googleSiteVerification }) {
         {/* Left Section: Photo */}
         <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-100 p-4 lg:p-0">
           <div className="w-full lg:w-3/4 h-64 lg:h-3/4 relative">
-            <Image
-              src="/patrik-21.png"
-              alt="Patrik Alriksson"
-              layout="fill"
-              objectFit="cover"
-              objectPosition="right"
-              className="rounded-lg shadow-lg"
-            />
+            <div className="relative w-full h-full">
+              <Image
+                src="/patrik-21.png"
+                alt="Patrik Alriksson"
+                fill
+                className="object-cover object-right rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </div>
         
