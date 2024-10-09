@@ -83,12 +83,12 @@ export default function Home({ googleSiteVerification }) {
               Let's Talk
             </a>
             <a
-              href="https://www.resume.se/affarer/byraer/pr-kollektivet-byter-namn-och-expanderar-blir-hybrid/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline btn-sm lg:btn-md"
             >
-              Resume.se - Ny Byrå, Hybrid
+              Hello
             </a>
 
             
