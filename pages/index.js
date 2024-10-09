@@ -80,7 +80,7 @@ export default function Home({ googleSiteVerification }) {
               rel="noopener noreferrer"
               className="btn btn-outline btn-sm lg:btn-md"
             >
-              Let's Talk
+              Let's Talk 2024
             </a>
             <a
               href="https://www.resume.se/affarer/byraer/pr-kollektivet-byter-namn-och-expanderar-blir-hybrid/"
