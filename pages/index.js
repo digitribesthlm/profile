@@ -62,7 +62,7 @@ export default function Home({ googleSiteVerification }) {
               href="https://www.linkedin.com/in/patrikalriksson/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-sm lg:btn-md"
+              className="btn btn-gray btn-sm lg:btn-md"
             >
               LinkedIn
             </a>
@@ -70,7 +70,7 @@ export default function Home({ googleSiteVerification }) {
               href="https://www.makeabelsthlm.se"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-sm lg:btn-md"
+              className="btn btn-gray btn-sm lg:btn-md"
             >
               Makeable STHLM
             </a>
@@ -78,7 +78,7 @@ export default function Home({ googleSiteVerification }) {
               href="mailto:patrik@makeablesthlm.se"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-sm lg:btn-md"
+              className="btn btn-gray btn-sm lg:btn-md"
             >
               Let's Talk
             </a>
@@ -86,7 +86,7 @@ export default function Home({ googleSiteVerification }) {
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-sm lg:btn-md"
+              className="btn btn-gray btn-sm lg:btn-md"
             >
               Resume.se - Ny Byrå, Hybrid  
             </a>
