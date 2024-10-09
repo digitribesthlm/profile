@@ -88,7 +88,7 @@ export default function Home({ googleSiteVerification }) {
               rel="noopener noreferrer"
               className="btn btn-outline btn-sm lg:btn-md"
             >
-              Hello
+              Resume.se - Ny Byrå, Hybrid  
             </a>
 
             
