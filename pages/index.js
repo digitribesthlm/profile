@@ -82,6 +82,17 @@ export default function Home({ googleSiteVerification }) {
             >
               Let's Talk
             </a>
+            <a
+              href="https://www.resume.se/affarer/byraer/pr-kollektivet-byter-namn-och-expanderar-blir-hybrid/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline btn-sm lg:btn-md"
+            >
+              Resume 2024
+            </a>
+
+            
+
           </div>
           
           <div className="mt-6 text-gray-500">
