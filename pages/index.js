@@ -20,7 +20,7 @@ export default function Home({ googleSiteVerification }) {
         <meta charSet={seo.metaTags.charset} />
         <meta name="viewport" content={seo.metaTags.name.viewport} />
         <meta name="description" content={seo.metaTags.name.description} />
-        <meta name="keywords" content="Patrik Alriksson, marknadsföring, företagsekonomi, Stockholm, B2B, Makeable STHLM" />
+        <meta name="keywords" content="Patrik Alriksson, marknadsföring, företagsekonomi, Stockholm, B2B, Makeable STHLM, B2C" />
         <meta name="author" content="Patrik Alriksson" />
         <meta name="google-site-verification" content={googleSiteVerification} />
         <meta property="og:title" content={seo.title} />
